@@ -15,3 +15,14 @@
 //     return view('welcome');
 // });
 Route::get('/','HomeController@index')->name('home');
+
+// tentang kami route
+Route::get('/tim-kami', 'TentangKamiController@timkami')->name('tim-kami');
+Route::get('/yang-kami-layani', 'TentangKamiController@yangkamilayani')->name('yang-kami-layani');
+
+//lokasi route
+Route::get('/lokasi-foodbank', 'LokasiController@index')->name('lokasi');
+
+//donasi route
+Route::get('/donasi-dana', 'DonasiController@donasidana')->name('donasi-dana');
+

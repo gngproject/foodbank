@@ -1,29 +1,53 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">zendex</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
+<footer class="mainfooter" role="contentinfo">
+    <div class="footer-middle">
+      <div class="container">
+        <h2 style="color: white">KONTAK KAMI</h2>
+        <br>
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <!--Column1-->
+            
+            <div class="footer-pad">
+              <ul class="list-unstyled">
+                <h4>LAYANAN KAMI</h4>
+                <li><a href="#"></a></li>
+                <li><a href="#">Payment Center</a></li>
+                <li><a href="#">Contact Directory</a></li>
+                <li><a href="#">Forms</a></li>
+                <li><a href="#">News and Updates</a></li>
+                <li><a href="#">FAQs</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <!--Column1-->
+            <div class="footer-pad">
+              <h4>PERTANYAAN MEDIA</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Website Tutorial</a></li>
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#">Disclaimer</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Webmaster</a></li>
+              </ul>
+            </div>
+          </div>
+            <div class="col-md-4 col-sm-12">
+              <h4>LOKASI KAMI</h4>
+                <ul class="social-network social-circle">
+                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                </ul>				
+            </div>
         </div>
+        <div class="row">
+            <div class="col-md-12 copy">
+                <p class="text-center">&copy; Copyright 2018 - Company Name.  All rights reserved.</p>
+            </div>
+        </div>
+    
+    
+      </div>
     </div>
-</nav>
-  
+  </footer>
