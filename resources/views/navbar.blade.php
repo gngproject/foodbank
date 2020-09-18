@@ -20,8 +20,8 @@
                       KEGIATAN KAMI
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">KETAHANAN PANGAN</a>
-                      <a class="dropdown-item" href="#">MODEL FOODBANK</a>
+                      <a class="dropdown-item" href="{{ route('tahan-pangan') }}">KETAHANAN PANGAN</a>
+                      <a class="dropdown-item" href="{{ route('model') }}">MODEL FOODBANK</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
